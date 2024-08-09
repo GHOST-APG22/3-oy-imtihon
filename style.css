@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #272C3D;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+ul li a {
+    /* UPDATES */
+text-decoration: none;
+font-family: 'Quantico';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+ul :hover {
+    color: #FF9C28;
+}
+
+input {
+    width: 241.87px;
+height: 30px;
+border-radius: 5px;
+background: #404864;
+
+}
+
+.tovar {
+    width: 165.49px;
+    height: 30px;
+    background: #00000080;
+    color: #FFFFFF;
+    padding-top: 7px;
+    padding-left: 5px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 5px;
+    left: 130px;
+    width: 165.49px;
+
+}
+
+.text-tovar {
+    width: 165.49px;
+ 
+}
+
+
+
+.options {
+    color: #FFFFFF;
+    width: 165.49px;
+    background-color: rgb(5, 24, 23);
+    position: absolute;
+    top: 38px;
+    display: none;
+    text-align: center;
+}
+
+.option {
+    padding: 10px 0;
+}
+
+.magazin {
+    position: relative;
+}
+
+.magazin:hover .options {
+    display: block;
+}
+
+.options :hover {
+    background-color: #861a1a;
+}
+
+.right-content {
+    display: flex;
+    gap: 44px;
+}
+
+.header-content {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-img img {
+    width: 100%;
+}
+
+#ikki {
+    background: #000000;
+    padding-bottom: 59px;
+    margin-top: -10px;
+}
+
+
+.ikki-title {
+    /* MAJOR UPDATES */
+color: #FFFFFF;
+font-family: 'Quantico';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 46px;
+text-align: center;
+padding-bottom: 21px;
+margin-bottom: 5px;
+
+}
+
+.section-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.uch-title {
+  /* PGL Antwerp 2022 Champions! */
+
+font-family: 'Quantico';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+color: #FFFFFF;  
+margin-top: 61px;
+margin-bottom: 30px;
+}
+
+#uch {
+    background: #1B1E27;
+    padding-bottom: 129px;
+
+}
+
+.uch-text {
+    /* This weekend, thousands of screaming fans in Antwerp and millions of viewers around the world witnessed the crowning of a new Major Champion. Congratulations to FaZe Clan who proved to be an unstoppable force, taking the Grand Final 2-0. Today we’re releasing the champions autograph capsule, featuring autograph stickers in paper, glitter, holo, and gold. Celebrate rain, karrigan, broky, ropz, and Twistzz by supporting them in style–50% of the proceeds are shared with the */
+
+width: 323px;
+
+font-family: 'Quantico';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+color: #BFBFBF;
+
+
+}
+
+.uch-right {
+    margin-top: 123px;
+
+}
+
+.uch-content {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+}
+
+#tort {
+
+}
+
+.margin-top {
+    margin-top: 142px;
+}
+
+footer {
+    background: #272C3D;
+
+}
+
+.footer-content {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
